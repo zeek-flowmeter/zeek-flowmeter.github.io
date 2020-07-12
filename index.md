@@ -1,5 +1,3 @@
-:octocat: [Zeek FlowMeter](https://github.com/zeek-flowmeter/zeek-flowmeter)
-
 This project is a port to Zeek of the [CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter) project. Additional features have been integrated, while other duplicates have been removed. 
 
 FlowMeter performs layer 3 and 4 network traffic analysis and generates a set of new features based on timing, volume and metadata. These features are ideal for developing models for machine learning and network traffic classification without using deep packet inspection. 
@@ -8,4 +6,4 @@ The advantage of using a standard network analysis framework like Zeek is that i
 
 This project adds the `flowmeter.zeek` script and the corresponding module with the name `FlowMeter`. Once activated, the module compute the features listed in the table below and write them into the `flowmeter.log` file. 
 
-:octocat: [Zeek FlowMeter](https://github.com/zeek-flowmeter/zeek-flowmeter)
+Get Zeek FlowMeter on [https://github.com/zeek-flowmeter/zeek-flowmeter](https://github.com/zeek-flowmeter/zeek-flowmeter)
