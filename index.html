@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Zeek FlowMeter by zeek-flowmeter</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Zeek FlowMeter</h1>
+        <p>A Zeek script to generate features based on timing, volume and metadata for traffic classification. Ideal for machine learning and network traffic classification.</p>
+
+        <p class="view"><a href="https://github.com/zeek-flowmeter/zeek-flowmeter">View the Project on GitHub <small>zeek-flowmeter/zeek-flowmeter</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/zeek-flowmeter/zeek-flowmeter/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/zeek-flowmeter/zeek-flowmeter/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/zeek-flowmeter/zeek-flowmeter">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>This project is a port to Zeek of the <a href="https://github.com/ahlashkari/CICFlowMeter">CICFlowMeter</a> project. Additional features have been integrated, while other duplicates have been removed.</p>
+<p>FlowMeter performs layer 3 and 4 network traffic analysis and generates a set of new features based on timing, volume and metadata. These features are ideal for developing models for traffic classification without using deep packet inspection.</p>
+<p>The advantage of using a standard network analysis framework like Zeek is that it is now possible to integrate the extraction of flow features in a standard solution. The identification of flows is therefore delegated to Zeek. Moreover, <code>FlowMeter</code> perform analysis on IPv6 flows too (currently CICFlowMeter do not support IPv6).</p>
+<p>This project adds the <code>flowmeter.zeek</code> script and the corresponding module with the name <code>FlowMeter</code>. Once activated, the module compute the features listed in the table below and write them into the <code>flowmeter.log</code> file.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/zeek-flowmeter">zeek-flowmeter</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
